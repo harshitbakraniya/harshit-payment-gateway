@@ -12,7 +12,7 @@ const Toaster = ({
 }) => {
   return (
     <div
-      className={`w-full fixed top-10 right-10 max-w-md rounded-lg p-4 text-sm font-medium ${
+      className={`w-full fixed top-10 right-10 max-w-md rounded-lg p-4 text-sm font-medium z-99 ${
         result.status === "success"
           ? "bg-green-50 border border-green-300 text-green-800"
           : result.status === "failed"
